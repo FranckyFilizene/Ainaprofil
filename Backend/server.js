@@ -19,6 +19,13 @@ app.use(express.json());
 
 app.use("/api/contact", contactRoutes);
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "Backend du portfolio opérationnel.",
+  });
+});
+
 app.get("/api/test", (req, res) => {
   res.json({
     success: true,
