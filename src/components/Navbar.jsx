@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FiMenu, FiX } from "react-icons/fi";
 
 function Navbar() {
 
@@ -30,7 +31,7 @@ function Navbar() {
             className="text-[#E1DCC9] md:hidden"
             aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
           >
-            {isOpen ? "✕" : "☰"}
+            {isOpen ? <FiX  size={24}/> : <FiMenu size={24}/>}
           </button>
 
         {isOpen && (
