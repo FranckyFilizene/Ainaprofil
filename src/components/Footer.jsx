@@ -28,7 +28,7 @@ const Footer = () => {
                         <div className="flex items-center gap-5 mt-2">
 
                             <a
-                                href="https://www.facebook.com/FranckyFilizene"
+                                href="https://www.facebook.com/aina.rajaonary.21"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-blue-500 transition-colors duration-300"
@@ -46,7 +46,7 @@ const Footer = () => {
                             </a>
 
                             <a
-                                href="https://www.github.com/FranckyFilizene"
+                                href="https://github.com/aina-rajaonary"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-white transition-colors duration-300"
@@ -119,7 +119,7 @@ const Footer = () => {
                             </span>
 
                             <a
-                                href="mailto:ranaivomananafrancky@gmail.com"
+                                href="mailto:ainarajaonary37@gmail.com"
                                 className="flex items-center gap-2 hover:text-[#6d4b22] transition-colors duration-300"
                             >
                                 <MdEmail
