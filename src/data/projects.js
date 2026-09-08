@@ -1,31 +1,31 @@
 const projects = [
   {
     id: 1,
-    title: "Gestion des étudiants",
+    title: "Gestion des virements bancaires",
     description:
-      "Application permettant de gérer les étudiants, leurs informations et leur suivi.",
-    technologies: ["C#", "WinForms", "MySQL"],
+      "Application qui permet de créer, valider eet suivre les virements bancaires entre comptes.",
+    technologies: ["Vuejs", "PHP", "MySQL"],
     image: "./public/images/Banque.jpg",
     github: "#",
     demo: "#",
   },
   {
     id: 2,
-    title: "Gestion de portefeuille",
+    title: "Gestion de Vente",
     description:
-      "Application de gestion permettant de suivre et organiser les opérations d'un portefeuille.",
+      "Application qui permet de gérer les clients, produits, commandes et factures d'une entreprise.",
     technologies: ["React", "JavaScript", "Tailwind CSS"],
-    image: "./public/images/Banque.jpg",
+    image: "./public/images/vente.jpg",
     github: "#",
     demo: "#",
   },
   {
     id: 3,
-    title: "BOXIA",
+    title: "Vente de Voiture",
     description:
-      "Assistant virtuel basé sur l'intelligence artificielle permettant d'interagir avec les visiteurs.",
-    technologies: ["React", "Node.js", "AI"],
-    image: "./public/images/Banque.jpg",
+      "Application pour concesssionaires qui gére le stock de véhicule. les clients , les ventes et les essais.",
+    technologies: ["C#", "MySQL", "Winforms"],
+    image: "./public/images/VenteVoiture.jpg",
     github: "#",
     demo: "#",
   },

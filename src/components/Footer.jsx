@@ -4,6 +4,8 @@ import { BsGithub } from 'react-icons/bs'
 import { CiLocationOn } from 'react-icons/ci'
 import { FaFacebook ,FaWhatsapp} from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
+import logo from "../../public/images/Logo.png"
+
 const Footer = () => {
     return (
         <footer className="w-full bg-[#110c07] text-slate-400 border-t border-[#412D15]">
@@ -161,8 +163,9 @@ const Footer = () => {
 
                     <p className="text-slate-600">
                         Designed & Developed by
-                        <span className="text-red-400 ml-1">
-                            IzeflienDEV
+                        <span className="text-slate-200 ml-1 flex items-center justify-center">
+                            <img src={logo} width={25} alt="logo" />
+                            Izeflien<span className='text-red-600'>DEV</span>
                         </span>
                     </p>
 

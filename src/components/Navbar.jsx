@@ -49,7 +49,7 @@ function Navbar() {
             ))}
           </div>
         </div>
-      )}
+        )}
 
         {/* Navigation */}
         <div className="hidden items-center gap-8 md:flex">
