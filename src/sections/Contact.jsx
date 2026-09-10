@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { MdCheckCircle, MdEmail, MdError, MdPhone } from "react-icons/md";
 
-const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const apiUrl = (import.meta.env.VITE_API_URL || "http://localhost:5000").replace(/\/+$/, "");
 
 const Contact = () => {
   const [formData, setFormData] = useState({
