@@ -144,7 +144,7 @@ function About() {
 
             <div className="relative overflow-hidden rounded-2xl border border-[#412D15] bg-[#1F150C] p-2 shadow-2xl shadow-[#412D15]/50">
               <img
-                src="/images/Aina.jpg"
+                src="/images/Aina1.jpg"
                 alt="Photo de profil"
                 className="photo-image h-[420px] w-full rounded-xl object-cover object-top sm:h-[410px] lg:h-[470px]"
                />
