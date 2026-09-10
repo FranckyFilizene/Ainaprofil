@@ -163,7 +163,7 @@ const Footer = () => {
 
                     <p className="text-slate-600">
                         Designed & Developed by
-                        <span className="text-slate-200 ml-1 flex items-center justify-center">
+                        <span className="text-slate-200 ml-2 flex items-center justify-center">
                             <img src={logo} width={25} alt="logo" />
                             Izeflien<span className='text-red-600'>DEV</span>
                         </span>
