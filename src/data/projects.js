@@ -5,7 +5,7 @@ const projects = [
     description:
       "Application qui permet de créer, valider eet suivre les virements bancaires entre comptes.",
     technologies: ["Vuejs", "PHP", "MySQL"],
-    image: "./public/images/Banque.jpg",
+    image: "/images/Banque.jpg",
     github: "#",
     demo: "#",
   },
@@ -15,7 +15,7 @@ const projects = [
     description:
       "Application qui permet de gérer les clients, produits, commandes et factures d'une entreprise.",
     technologies: ["React", "JavaScript", "Tailwind CSS"],
-    image: "./public/images/vente.jpg",
+    image: "/images/vente.jpg",
     github: "#",
     demo: "#",
   },
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Application pour concesssionaires qui gére le stock de véhicule. les clients , les ventes et les essais.",
     technologies: ["C#", "MySQL", "Winforms"],
-    image: "./public/images/VenteVoiture.jpg",
+    image: "/images/VenteVoiture.jpg",
     github: "#",
     demo: "#",
   },

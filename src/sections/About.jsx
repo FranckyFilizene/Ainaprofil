@@ -113,7 +113,7 @@ function About() {
             </a>
 
             <a
-              href="/cv.pdf"
+              href="./public/Cv/AinaCv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-lg border border-[#412D15] px-6 py-3 font-medium text-[#E1DCC9] transition-all duration-300 hover:bg-[#412D15]"
