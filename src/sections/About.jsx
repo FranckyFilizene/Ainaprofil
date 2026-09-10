@@ -113,10 +113,8 @@ function About() {
             </a>
 
             <a
-              href="/Cv/AinaCv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
+              href="/Cv/AinaCV.pdf"
+              download="CV_Aina.pdf"
               className="inline-flex items-center justify-center rounded-lg border border-[#412D15] px-6 py-3 font-medium text-[#E1DCC9] transition-all duration-300 hover:bg-[#412D15]"
             >
               Télécharger mon CV
